@@ -1,6 +1,6 @@
 import numpy as np
 print("1D Array:")
-ar = np.arange(5).reshape(1,5)
+ar = np.arange(1,6).reshape(1,5)
 print(ar)
 print("\nDiagonal Array Is:")
 print(np.diag(ar))
